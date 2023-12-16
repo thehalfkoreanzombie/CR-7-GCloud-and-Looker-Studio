@@ -5,7 +5,7 @@
 ## Description
 For this project, I was tasked to create a new dataset in bigquery called 'plants', and create a table called 'flower_shop' with a complete schema. To create the dataset, I used the google cloud console, and to create the tables, I used sql code in bigquery. The sql code I used can be found here [create_table.sql](create_table.sql). I was also tasked to take a public dataset and create a visual for it in looker studio. You can download the dataset at [Google_Stock_Prices](https://www.kaggle.com/datasets/henryshan/google-stock-price). You can view the whole report from looker studio at [Report](https://lookerstudio.google.com/reporting/a4f02e33-71b7-47e5-8cb4-4aad6aa5de74/page/kVLlD). Here is an image of the interactive report here:
 
-<img src="images/Google_Stock_Prices.pdf" alt="picture of interactive report showing google stock prices" width="1200" height="1050" />
+<img src="images/Google_Stock_Prices.png" alt="picture of interactive report showing google stock prices" width="1200" height="1050" />
 
 I created a date range control for this report, which the user can use to specify a particular date range you want to see in the report. This report has three scorecards showing:
 - The overall volume of stocks 
